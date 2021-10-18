@@ -51,6 +51,12 @@ class Recipe {
         Ingredient(160, "gr", "Manteca o margina, derretida"),
       ],
     ),
+    Recipe(
+      'Roscas',
+      'assets/roscas.jpg',
+      8,
+      [],
+    ),
   ];
 }
 
