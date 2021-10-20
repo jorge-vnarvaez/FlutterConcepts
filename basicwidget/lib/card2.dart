@@ -1,5 +1,4 @@
 import 'package:basicwidget/fooderlich_theme.dart';
-import 'package:basicwidget/main.dart';
 import 'package:flutter/material.dart';
 import 'author_card.dart';
 
