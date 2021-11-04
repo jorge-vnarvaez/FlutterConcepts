@@ -3,10 +3,15 @@ import '../components/components.dart';
 import '../models/models.dart';
 import 'package:basicwidget/api/mock_fooderlich_service.dart';
 
-class ExploreScreen extends StatelessWidget {
-  final mockService = MockFooderlichService();
-
+class ExploreScreen extends StatefulWidget {
   ExploreScreen({Key? key}) : super(key: key);
+
+  @override
+  _ExploreScreenState createState() => _ExploreScreenState();
+}
+
+class _ExploreScreenState extends State<ExploreScreen> {
+  final mockService = MockFooderlichService();
 
   @override
   Widget build(BuildContext context) {
