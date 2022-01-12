@@ -38,6 +38,8 @@ class MockFooderlichService {
 
   // Get the sample friend json posts to display in ui
   Future<List<Post>> _getFriendFeed() async {
+    print('waiting');
+
     // Simulate api request wait time
     await Future.delayed(const Duration(milliseconds: 1000));
     // Load json from file system
